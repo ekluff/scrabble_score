@@ -2,7 +2,7 @@
 #####This application will produce the Scrabble score of a given word, August 4, 2015.
 ####By Leah Klamkin, Evan Clough
 ##Description
-This application takes a user input in the format of a String and tells its Scrabble score.
+This application takes a user input in the format of a single-word String and tells its Scrabble score.
 ##Setup
 The name of the method in the application is .scrabble_score. It may be called on any String. You run it in irb.
 ##Technologies Used
