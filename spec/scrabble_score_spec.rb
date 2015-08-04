@@ -17,4 +17,8 @@ describe('String#scrabble_score') do
   it("adds the scores of all letters in a word") do
     expect("word".scrabble_score()).to(eq(8))
   end
+
+  it("accounts for capital letters in user inputs") do
+    expect("Word".scrabble_score()).to(eq(8))
+  end
 end
