@@ -6,11 +6,13 @@ class String
     # scores.fetch(self)
 
     split_word = self.split("")
+    word_score = 0
+    split_word.each do |letter|
+      word_score = word_score.+(scores.fetch(letter))
+    end
+    word_score
 
-    scores.fetch(split_word[0])
     # scores.fetch(split_word.at(0))
-
-
 
   end
 end
